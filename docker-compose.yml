@@ -1,0 +1,9 @@
+version: '3'
+services:
+    dsml:
+        build: .
+        container_name: dsml
+        volumes:
+            - ./workspace:/workspace
+        ports:
+            - "8888:8888"
