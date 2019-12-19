@@ -1,1 +1,1 @@
-# Anaconda JuputerLab environment
+# Anaconda JupyterLab environment
