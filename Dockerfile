@@ -16,5 +16,4 @@ RUN apt-get update && \
     pip install --no-cache-dir flask smart_getenv gunicorn && \
     conda install -y -c caffe2 caffe2 protobuf && \
     conda install -y -c conda-forge onnx
-#RUN conda clean -y -json -i -l -t -s
 CMD jupyter-lab --port=8888 --ip=0.0.0.0 --allow-root
