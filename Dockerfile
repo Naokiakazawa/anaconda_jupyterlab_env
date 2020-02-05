@@ -13,7 +13,7 @@ RUN apt-get update && \
     pip install --no-cache-dir pygame==1.9.4 && \
     pip install --no-cache-dir -e git+https://github.com/ntasfi/PyGame-Learning-Environment.git#egg=ple && \
     pip install --no-cache-dir -e git+https://github.com/lusob/gym-ple.git#egg=gym-ple && \
-    pip install --no-cache-dir flask smart_getenv gunicorn && \
+    pip install --no-cache-dir flask smart_getenv gunicorn mesa && \
     conda install -y -c caffe2 caffe2 protobuf && \
     conda install -y -c conda-forge onnx
 CMD jupyter-lab --port=8888 --ip=0.0.0.0 --allow-root
